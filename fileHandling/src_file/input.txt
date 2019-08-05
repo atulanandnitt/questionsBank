@@ -1,2 +1,0 @@
-its input.txt file.
-inside src_file folder
