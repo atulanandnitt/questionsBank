@@ -1,1 +1,0 @@
-CREATE TABLE IF NOT EXISTS student(name VARCHAR(55) PRIMARY KEY, rollnumber int )
