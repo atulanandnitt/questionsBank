@@ -1,0 +1,1 @@
+"INSERT INTO student(name,rollnumber) VALUES(?,?)",("anand",1234)
