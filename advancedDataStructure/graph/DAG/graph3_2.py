@@ -9,7 +9,7 @@ def create_DAG():
     G2 = nx.DiGraph()
 
 
-    abs_file = "C:/Users/Atul Anand/PycharmProjects/sunrun3/objectiveDoubt/fileData/task_files/input/test.csv"
+    abs_file = "C:/Users/Atul Anand/PycharmProjects/folder_name/objectiveDoubt/fileData/task_files/input/test.csv"
     df1 = pd.read_csv(abs_file)
     print(df1)
 
