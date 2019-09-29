@@ -1,0 +1,111 @@
+/usr/bin/python3.6 /home/atul/PycharmProjects/questions_bank_in_git/already_asked_questions/gojek/parking-lot-1.4.2/parking_lot/main.py
+create_parking_lot 5
+ur input is :create_parking_lot 5
+ur input is :create_parking_lot 5
+ur input is :create_parking_lot 5
+creating parking lot
+Created a parking lot with 5 slots
+park KA-01-HH-1234 White
+ur input is :park KA-01-HH-1234 White
+ur input is :park KA-01-HH-1234 White
+ur input is :park KA-01-HH-1234 White
+ur input is :park, KA-01-HH-1234, White
+parking vehicle number :KA-01-HH-1234 of color:White
+not full
+1st car got parked of color: White
+car reg_num : KA-01-HH-1234 got parked at slot num: 1
+Allocated slot number: 1
+park KA-01-HH-9999 White
+ur input is :park KA-01-HH-9999 White
+ur input is :park KA-01-HH-9999 White
+ur input is :park KA-01-HH-9999 White
+ur input is :park, KA-01-HH-9999, White
+parking vehicle number :KA-01-HH-9999 of color:White
+not full
+car reg_num : KA-01-HH-9999 got parked at slot num: 2
+Allocated slot number: 2
+park KA-01-BB-0001 Black
+ur input is :park KA-01-BB-0001 Black
+ur input is :park KA-01-BB-0001 Black
+ur input is :park KA-01-BB-0001 Black
+ur input is :park, KA-01-BB-0001, Black
+parking vehicle number :KA-01-BB-0001 of color:Black
+not full
+1st car got parked of color: Black
+car reg_num : KA-01-BB-0001 got parked at slot num: 3
+Allocated slot number: 3
+park KA-01-HH-7777 Red
+ur input is :park KA-01-HH-7777 Red
+ur input is :park KA-01-HH-7777 Red
+ur input is :park KA-01-HH-7777 Red
+ur input is :park, KA-01-HH-7777, Red
+parking vehicle number :KA-01-HH-7777 of color:Red
+not full
+1st car got parked of color: Red
+car reg_num : KA-01-HH-7777 got parked at slot num: 4
+Allocated slot number: 4
+park KA-01-HH-2701 Blue
+ur input is :park KA-01-HH-2701 Blue
+ur input is :park KA-01-HH-2701 Blue
+ur input is :park KA-01-HH-2701 Blue
+ur input is :park, KA-01-HH-2701, Blue
+parking vehicle number :KA-01-HH-2701 of color:Blue
+not full
+1st car got parked of color: Blue
+car reg_num : KA-01-HH-2701 got parked at slot num: 5
+Allocated slot number: 5
+park KA-01-HH-3141 Black
+ur input is :park KA-01-HH-3141 Black
+ur input is :park KA-01-HH-3141 Black
+ur input is :park KA-01-HH-3141 Black
+ur input is :park, KA-01-HH-3141, Black
+parking vehicle number :KA-01-HH-3141 of color:Black
+not full
+car reg_num : KA-01-HH-3141 got parked at slot num: 6
+Allocated slot number: 6
+leave 4
+ur input is :leave 4
+ur input is :leave 4
+ur input is :leave 4
+status
+ur input is :status
+ur input is :status
+ur input is :status
+Slot No.     Registration No     Colour
+0    KA-01-HH-1234      White
+1    KA-01-HH-9999      White
+2    KA-01-BB-0001      Black
+4    KA-01-HH-2701      Blue
+5    KA-01-HH-3141      Black
+park KA-01-P-333 White
+ur input is :park KA-01-P-333 White
+ur input is :park KA-01-P-333 White
+ur input is :park KA-01-P-333 White
+ur input is :park, KA-01-P-333, White
+parking vehicle number :KA-01-P-333 of color:White
+not full
+car reg_num : KA-01-P-333 got parked at slot num: 4
+Allocated slot number: 4
+park DL-12-AA-9999 White
+ur input is :park DL-12-AA-9999 White
+ur input is :park DL-12-AA-9999 White
+ur input is :park DL-12-AA-9999 White
+ur input is :park, DL-12-AA-9999, White
+parking vehicle number :DL-12-AA-9999 of color:White
+not full
+car reg_num : DL-12-AA-9999 got parked at slot num: 5
+Allocated slot number: 5
+registration_numbers_for_cars_with_colour White
+ur input is :registration_numbers_for_cars_with_colour White
+ur input is :registration_numbers_for_cars_with_colour White
+ur input is :['registration_numbers_for_cars_with_colour', 'White']
+slot_numbers_for_cars_with_colour White
+ur input is :slot_numbers_for_cars_with_colour White
+ur input is :slot_numbers_for_cars_with_colour White
+ur input is :slot_numbers_for_cars_with_colour White
+slot_number_for_registration_number KA-01-HH-3141slot_number_for_registration_number MH-04-AY-1111
+ur input is :slot_number_for_registration_number KA-01-HH-3141
+ur input is :slot_number_for_registration_number KA-01-HH-3141
+slot_number_for_registration_number MH-04-AY-1111
+ur input is :slot_number_for_registration_number MH-04-AY-1111
+ur input is :slot_number_for_registration_number MH-04-AY-1111
