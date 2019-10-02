@@ -3,12 +3,12 @@
 # from argparse import ArgumentParser
 import sys
 
-# data_object_1[color].append(reg_num)
-data_object_1 = dict()
-# data_object_2[reg_num] = slot_num
-data_object_2 = dict()
-# data_object_3[color].append(slot_num)
-data_object_3 = dict()
+# reg_num_and_color[color].append(reg_num)
+reg_num_and_color = dict()
+# reg_num_and_slot_num[reg_num] = slot_num
+reg_num_and_slot_num = dict()
+# color_and_slot_num[color].append(slot_num)
+color_and_slot_num = dict()
 size_of_the_parking = 0
 occupancy_array = list()
 
@@ -116,14 +116,14 @@ def park(reg_num, color):
         reg_num_list = [reg_num]
         slot_num_list = [slot_num]
         try:
-            data_object_1[color].append(reg_num)
+            reg_num_and_color[color].append(reg_num)
         except KeyError:
-            data_object_1[color] = reg_num_list
+            reg_num_and_color[color] = reg_num_list
         except ValueError as err_msg:
             raise ValueError("problem in find_slot_numbers_for_cars_with_colour : {0}".format(str(err_msg)))
 
         try:
-            data_object_2[reg_num] = slot_num
+            reg_num_and_slot_num[reg_num] = slot_num
         except KeyError:
             print("reg number is unique so if a car with the particular reg num is"
                   " already parked it cant be parked again untill or unless its gone out")
@@ -131,9 +131,9 @@ def park(reg_num, color):
             raise ValueError("problem in find_slot_numbers_for_cars_with_colour : {0}".format(str(err_msg)))
 
         try:
-            data_object_3[color].append(slot_num)
+            color_and_slot_num[color].append(slot_num)
         except KeyError:
-            data_object_3[color] = slot_num_list
+            color_and_slot_num[color] = slot_num_list
         except ValueError as err_msg:
             raise ValueError("problem in find_slot_numbers_for_cars_with_colour : {0}".format(str(err_msg)))
 
@@ -145,9 +145,9 @@ def park(reg_num, color):
 #  $ registration_numbers_for_cars_with_colour White
 # KA-01-HH-1234, KA-01-HH-9999, KA-01-P-333
 def find_registration_numbers_for_cars_with_colour(color):
-    # data_object_1 = json.dump(data_object_1.json)
+    # reg_num_and_color = json.dump(reg_num_and_color.json)
     try:
-        list_of_reg_num = data_object_1[color]
+        list_of_reg_num = reg_num_and_color[color]
         return list_of_reg_num
     except KeyError:
         return "Not found"
@@ -162,10 +162,10 @@ def find_registration_numbers_for_cars_with_colour(color):
 # $ slot_number_for_registration_number MH-04-AY-1111
 # Not found
 def find_slot_numbers_for_cars_with_colour(color):
-    global data_object_3
-    # data_object_1 = json.dump(data_object_1.json)
+    global color_and_slot_num
+    # reg_num_and_color = json.dump(reg_num_and_color.json)
     try:
-        list_of_reg_num = data_object_3[color]
+        list_of_reg_num = color_and_slot_num[color]
         return list_of_reg_num
     # except KeyError:
     #     return "Not found"
@@ -174,9 +174,9 @@ def find_slot_numbers_for_cars_with_colour(color):
 
 
 def find_slot_number_for_registration_number(reg_num):
-    global data_object_3
+    global color_and_slot_num
     try:
-        slot_num = data_object_2[reg_num]
+        slot_num = reg_num_and_slot_num[reg_num]
         return slot_num
     except KeyError:
         return "Not found"
