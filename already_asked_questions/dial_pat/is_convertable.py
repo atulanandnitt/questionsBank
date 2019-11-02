@@ -1,7 +1,7 @@
 import copy
 import enchant
 
-
+# http://www.blazedemo.com:8080/github-webhook/
 def is_valid_input(src_word, dest_word, eng_dict1):
     if eng_dict1.check(src_word) and eng_dict1.check(dest_word) and (len(src_word) == len(dest_word)):
         return True

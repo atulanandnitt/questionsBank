@@ -10,7 +10,9 @@ def findindexOfMin(list2):
         if list2[i] == miniInList2:
             return i
     
-    
+def findindexOfMin_2(list2):
+    return (list2.index(min(list2)))
+
 def findKthLargestNo(list1,k):
     print(list1)
     list2=[]#size k
@@ -29,5 +31,5 @@ def findKthLargestNo(list1,k):
     return list2[0]
    
 list1=[5,3,1,2,4]
-k=5
+k=4
 print(findKthLargestNo(list1,k)    )
