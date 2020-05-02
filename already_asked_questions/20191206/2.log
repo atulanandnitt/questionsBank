@@ -1,0 +1,1589 @@
+['John', 'is', 'at', 'a', 'post,', 'where', 'they', 'make', 'pots.', 'Making', 'the', 'pots', 'will\nstop', 'in', 'the', 'future.', 'Oh', 'dear,', 'what', 'will', 'happen', 'to', 'them', 'when', 'it\nhappens.', 'This', 'can', 'happen', 'only', 'in', 'Rome.', 'Read', 'on', 'to', 'find', 'more.\n']
+['John', 'Making', 'Oh', 'Read', 'Rome.', 'This', 'a', 'at', 'can', 'dear,', 'find', 'future.', 'happen', 'happen', 'in', 'in', 'is', 'it\nhappens.', 'make', 'more.\n', 'on', 'only', 'post,', 'pots', 'pots.', 'the', 'the', 'them', 'they', 'to', 'to', 'what', 'when', 'where', 'will', 'will\nstop']
+comparing : John & is
+comparing : John & at
+comparing : John & a
+comparing : John & post,
+item1 : john
+item2 : post
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'p': 0, 's': 0, 't': 0, 'o': 1}
+key1 : h
+comparing : John & where
+comparing : John & they
+item1 : john
+item2 : they
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'y': 0, 'h': 1, 'e': 0, 't': 0}
+key1 : h
+key1 : j
+comparing : John & make
+item1 : john
+item2 : make
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'a': 0, 'm': 0, 'k': 0, 'e': 0}
+key1 : h
+comparing : John & pots.
+item1 : john
+item2 : pots
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'p': 0, 's': 0, 't': 0, 'o': 1}
+key1 : h
+comparing : John & Making
+comparing : John & the
+comparing : John & pots
+item1 : john
+item2 : pots
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'p': 0, 's': 0, 't': 0, 'o': 1}
+key1 : h
+comparing : John & will
+stop
+comparing : John & in
+comparing : John & the
+comparing : John & future.
+comparing : John & Oh
+comparing : John & dear,
+item1 : john
+item2 : dear
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : h
+comparing : John & what
+item1 : john
+item2 : what
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'a': 0, 'h': 1, 't': 0, 'w': 0}
+key1 : h
+key1 : j
+comparing : John & will
+item1 : john
+item2 : will
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'i': 0, 'l': 0, 'w': 0}
+comparing : John & happen
+comparing : John & to
+comparing : John & them
+item1 : john
+item2 : them
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'h': 1, 'm': 0, 'e': 0, 't': 0}
+key1 : h
+key1 : j
+comparing : John & when
+item1 : john
+item2 : when
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'h': 1, 'e': 0, 'w': 0, 'n': 1}
+key1 : h
+key1 : j
+comparing : John & it
+happens.
+comparing : John & This
+item1 : john
+item2 : this
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'i': 0, 'h': 1, 's': 0, 't': 0}
+key1 : h
+key1 : j
+comparing : John & can
+comparing : John & happen
+comparing : John & only
+item1 : john
+item2 : only
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'y': 0, 'l': 0, 'o': 1, 'n': 1}
+key1 : h
+comparing : John & in
+comparing : John & Rome.
+item1 : john
+item2 : rome
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : h
+comparing : John & Read
+item1 : john
+item2 : read
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : h
+comparing : John & on
+comparing : John & to
+comparing : John & find
+item1 : john
+item2 : find
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 1}
+key1 : h
+comparing : John & more.
+
+item1 : john
+item2 : more
+{'h': 1, 'j': 1, 'o': 1, 'n': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : h
+comparing : is & at
+item1 : is
+item2 : at
+{'i': 1, 's': 1}
+{'a': 0, 't': 0}
+key1 : i
+comparing : is & a
+comparing : is & post,
+comparing : is & where
+comparing : is & they
+comparing : is & make
+comparing : is & pots.
+comparing : is & Making
+comparing : is & the
+comparing : is & pots
+comparing : is & will
+stop
+comparing : is & in
+item1 : is
+item2 : in
+{'i': 1, 's': 1}
+{'i': 1, 'n': 0}
+key1 : i
+key1 : s
+comparing : is & the
+comparing : is & future.
+comparing : is & Oh
+item1 : is
+item2 : oh
+{'i': 1, 's': 1}
+{'h': 0, 'o': 0}
+key1 : i
+comparing : is & dear,
+comparing : is & what
+comparing : is & will
+comparing : is & happen
+comparing : is & to
+item1 : is
+item2 : to
+{'i': 1, 's': 1}
+{'t': 0, 'o': 0}
+key1 : i
+comparing : is & them
+comparing : is & when
+comparing : is & it
+happens.
+comparing : is & This
+comparing : is & can
+comparing : is & happen
+comparing : is & only
+comparing : is & in
+item1 : is
+item2 : in
+{'i': 1, 's': 1}
+{'i': 1, 'n': 0}
+key1 : i
+key1 : s
+comparing : is & Rome.
+comparing : is & Read
+comparing : is & on
+item1 : is
+item2 : on
+{'i': 1, 's': 1}
+{'o': 0, 'n': 0}
+key1 : i
+comparing : is & to
+item1 : is
+item2 : to
+{'i': 1, 's': 1}
+{'t': 0, 'o': 0}
+key1 : i
+comparing : is & find
+comparing : is & more.
+
+comparing : at & a
+comparing : at & post,
+comparing : at & where
+comparing : at & they
+comparing : at & make
+comparing : at & pots.
+comparing : at & Making
+comparing : at & the
+comparing : at & pots
+comparing : at & will
+stop
+comparing : at & in
+item1 : at
+item2 : in
+{'a': 1, 't': 1}
+{'i': 0, 'n': 0}
+key1 : a
+comparing : at & the
+comparing : at & future.
+comparing : at & Oh
+item1 : at
+item2 : oh
+{'a': 1, 't': 1}
+{'h': 0, 'o': 0}
+key1 : a
+comparing : at & dear,
+comparing : at & what
+comparing : at & will
+comparing : at & happen
+comparing : at & to
+item1 : at
+item2 : to
+{'a': 1, 't': 1}
+{'t': 1, 'o': 0}
+key1 : a
+comparing : at & them
+comparing : at & when
+comparing : at & it
+happens.
+comparing : at & This
+comparing : at & can
+comparing : at & happen
+comparing : at & only
+comparing : at & in
+item1 : at
+item2 : in
+{'a': 1, 't': 1}
+{'i': 0, 'n': 0}
+key1 : a
+comparing : at & Rome.
+comparing : at & Read
+comparing : at & on
+item1 : at
+item2 : on
+{'a': 1, 't': 1}
+{'o': 0, 'n': 0}
+key1 : a
+comparing : at & to
+item1 : at
+item2 : to
+{'a': 1, 't': 1}
+{'t': 1, 'o': 0}
+key1 : a
+comparing : at & find
+comparing : at & more.
+
+comparing : a & post,
+comparing : a & where
+comparing : a & they
+comparing : a & make
+comparing : a & pots.
+comparing : a & Making
+comparing : a & the
+comparing : a & pots
+comparing : a & will
+stop
+comparing : a & in
+comparing : a & the
+comparing : a & future.
+comparing : a & Oh
+comparing : a & dear,
+comparing : a & what
+comparing : a & will
+comparing : a & happen
+comparing : a & to
+comparing : a & them
+comparing : a & when
+comparing : a & it
+happens.
+comparing : a & This
+comparing : a & can
+comparing : a & happen
+comparing : a & only
+comparing : a & in
+comparing : a & Rome.
+comparing : a & Read
+comparing : a & on
+comparing : a & to
+comparing : a & find
+comparing : a & more.
+
+comparing : post, & where
+comparing : post, & they
+item1 : post
+item2 : they
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'y': 0, 'h': 0, 'e': 0, 't': 1}
+key1 : p
+comparing : post, & make
+item1 : post
+item2 : make
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'm': 0, 'k': 0, 'e': 0}
+key1 : p
+comparing : post, & pots.
+item1 : post
+item2 : pots
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+key1 : p
+key1 : s
+key1 : t
+key1 : o
+comparing : post, & Making
+comparing : post, & the
+comparing : post, & pots
+item1 : post
+item2 : pots
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+key1 : p
+key1 : s
+key1 : t
+key1 : o
+comparing : post, & will
+stop
+comparing : post, & in
+comparing : post, & the
+comparing : post, & future.
+comparing : post, & Oh
+comparing : post, & dear,
+item1 : post
+item2 : dear
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : p
+comparing : post, & what
+item1 : post
+item2 : what
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'h': 0, 't': 1, 'w': 0}
+key1 : p
+comparing : post, & will
+item1 : post
+item2 : will
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'l': 0, 'w': 0}
+comparing : post, & happen
+comparing : post, & to
+comparing : post, & them
+item1 : post
+item2 : them
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'h': 0, 'm': 0, 'e': 0, 't': 1}
+key1 : p
+comparing : post, & when
+item1 : post
+item2 : when
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'h': 0, 'e': 0, 'w': 0, 'n': 0}
+key1 : p
+comparing : post, & it
+happens.
+comparing : post, & This
+item1 : post
+item2 : this
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'h': 0, 's': 1, 't': 1}
+key1 : p
+comparing : post, & can
+comparing : post, & happen
+comparing : post, & only
+item1 : post
+item2 : only
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'y': 0, 'l': 0, 'o': 1, 'n': 0}
+key1 : p
+comparing : post, & in
+comparing : post, & Rome.
+item1 : post
+item2 : rome
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : p
+comparing : post, & Read
+item1 : post
+item2 : read
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : p
+comparing : post, & on
+comparing : post, & to
+comparing : post, & find
+item1 : post
+item2 : find
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 0}
+key1 : p
+comparing : post, & more.
+
+item1 : post
+item2 : more
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : p
+comparing : where & they
+comparing : where & make
+comparing : where & pots.
+comparing : where & Making
+comparing : where & the
+comparing : where & pots
+comparing : where & will
+stop
+comparing : where & in
+comparing : where & the
+comparing : where & future.
+comparing : where & Oh
+comparing : where & dear,
+comparing : where & what
+comparing : where & will
+comparing : where & happen
+comparing : where & to
+comparing : where & them
+comparing : where & when
+comparing : where & it
+happens.
+comparing : where & This
+comparing : where & can
+comparing : where & happen
+comparing : where & only
+comparing : where & in
+comparing : where & Rome.
+comparing : where & Read
+comparing : where & on
+comparing : where & to
+comparing : where & find
+comparing : where & more.
+
+comparing : they & make
+item1 : they
+item2 : make
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'a': 0, 'm': 0, 'k': 0, 'e': 1}
+key1 : y
+comparing : they & pots.
+item1 : they
+item2 : pots
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'p': 0, 's': 0, 't': 1, 'o': 0}
+key1 : y
+comparing : they & Making
+comparing : they & the
+comparing : they & pots
+item1 : they
+item2 : pots
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'p': 0, 's': 0, 't': 1, 'o': 0}
+key1 : y
+comparing : they & will
+stop
+comparing : they & in
+comparing : they & the
+comparing : they & future.
+comparing : they & Oh
+comparing : they & dear,
+item1 : they
+item2 : dear
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'a': 0, 'r': 0, 'e': 1, 'd': 0}
+key1 : y
+comparing : they & what
+item1 : they
+item2 : what
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'a': 0, 'h': 1, 't': 1, 'w': 0}
+key1 : y
+comparing : they & will
+item1 : they
+item2 : will
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'i': 0, 'l': 0, 'w': 0}
+comparing : they & happen
+comparing : they & to
+comparing : they & them
+item1 : they
+item2 : them
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'h': 1, 'm': 0, 'e': 1, 't': 1}
+key1 : y
+comparing : they & when
+item1 : they
+item2 : when
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'h': 1, 'e': 1, 'w': 0, 'n': 0}
+key1 : y
+comparing : they & it
+happens.
+comparing : they & This
+item1 : they
+item2 : this
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'i': 0, 'h': 1, 's': 0, 't': 1}
+key1 : y
+comparing : they & can
+comparing : they & happen
+comparing : they & only
+item1 : they
+item2 : only
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'y': 1, 'l': 0, 'o': 0, 'n': 0}
+key1 : y
+key1 : h
+comparing : they & in
+comparing : they & Rome.
+item1 : they
+item2 : rome
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'m': 0, 'r': 0, 'e': 1, 'o': 0}
+key1 : y
+comparing : they & Read
+item1 : they
+item2 : read
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'a': 0, 'r': 0, 'e': 1, 'd': 0}
+key1 : y
+comparing : they & on
+comparing : they & to
+comparing : they & find
+item1 : they
+item2 : find
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 0}
+key1 : y
+comparing : they & more.
+
+item1 : they
+item2 : more
+{'y': 1, 'h': 1, 'e': 1, 't': 1}
+{'m': 0, 'r': 0, 'e': 1, 'o': 0}
+key1 : y
+comparing : make & pots.
+item1 : make
+item2 : pots
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'p': 0, 's': 0, 't': 0, 'o': 0}
+key1 : a
+comparing : make & Making
+comparing : make & the
+comparing : make & pots
+item1 : make
+item2 : pots
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'p': 0, 's': 0, 't': 0, 'o': 0}
+key1 : a
+comparing : make & will
+stop
+comparing : make & in
+comparing : make & the
+comparing : make & future.
+comparing : make & Oh
+comparing : make & dear,
+item1 : make
+item2 : dear
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'a': 1, 'r': 0, 'e': 1, 'd': 0}
+key1 : a
+key1 : m
+comparing : make & what
+item1 : make
+item2 : what
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'a': 1, 'h': 0, 't': 0, 'w': 0}
+key1 : a
+key1 : m
+comparing : make & will
+item1 : make
+item2 : will
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'i': 0, 'l': 0, 'w': 0}
+comparing : make & happen
+comparing : make & to
+comparing : make & them
+item1 : make
+item2 : them
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'h': 0, 'm': 1, 'e': 1, 't': 0}
+key1 : a
+comparing : make & when
+item1 : make
+item2 : when
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'h': 0, 'e': 1, 'w': 0, 'n': 0}
+key1 : a
+comparing : make & it
+happens.
+comparing : make & This
+item1 : make
+item2 : this
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'i': 0, 'h': 0, 's': 0, 't': 0}
+key1 : a
+comparing : make & can
+comparing : make & happen
+comparing : make & only
+item1 : make
+item2 : only
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'y': 0, 'l': 0, 'o': 0, 'n': 0}
+key1 : a
+comparing : make & in
+comparing : make & Rome.
+item1 : make
+item2 : rome
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'m': 1, 'r': 0, 'e': 1, 'o': 0}
+key1 : a
+comparing : make & Read
+item1 : make
+item2 : read
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'a': 1, 'r': 0, 'e': 1, 'd': 0}
+key1 : a
+key1 : m
+comparing : make & on
+comparing : make & to
+comparing : make & find
+item1 : make
+item2 : find
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 0}
+key1 : a
+comparing : make & more.
+
+item1 : make
+item2 : more
+{'a': 1, 'm': 1, 'k': 1, 'e': 1}
+{'m': 1, 'r': 0, 'e': 1, 'o': 0}
+key1 : a
+comparing : pots. & Making
+comparing : pots. & the
+comparing : pots. & pots
+comparing : pots. & will
+stop
+comparing : pots. & in
+comparing : pots. & the
+comparing : pots. & future.
+comparing : pots. & Oh
+comparing : pots. & dear,
+item1 : pots
+item2 : dear
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : p
+comparing : pots. & what
+item1 : pots
+item2 : what
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'h': 0, 't': 1, 'w': 0}
+key1 : p
+comparing : pots. & will
+item1 : pots
+item2 : will
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'l': 0, 'w': 0}
+comparing : pots. & happen
+comparing : pots. & to
+comparing : pots. & them
+item1 : pots
+item2 : them
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'h': 0, 'm': 0, 'e': 0, 't': 1}
+key1 : p
+comparing : pots. & when
+item1 : pots
+item2 : when
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'h': 0, 'e': 0, 'w': 0, 'n': 0}
+key1 : p
+comparing : pots. & it
+happens.
+comparing : pots. & This
+item1 : pots
+item2 : this
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'h': 0, 's': 1, 't': 1}
+key1 : p
+comparing : pots. & can
+comparing : pots. & happen
+comparing : pots. & only
+item1 : pots
+item2 : only
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'y': 0, 'l': 0, 'o': 1, 'n': 0}
+key1 : p
+comparing : pots. & in
+comparing : pots. & Rome.
+item1 : pots
+item2 : rome
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : p
+comparing : pots. & Read
+item1 : pots
+item2 : read
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : p
+comparing : pots. & on
+comparing : pots. & to
+comparing : pots. & find
+item1 : pots
+item2 : find
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 0}
+key1 : p
+comparing : pots. & more.
+
+item1 : pots
+item2 : more
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : p
+comparing : Making & the
+comparing : Making & pots
+comparing : Making & will
+stop
+comparing : Making & in
+comparing : Making & the
+comparing : Making & future.
+item1 : making
+item2 : future
+{'a': 1, 'g': 1, 'i': 1, 'k': 1, 'm': 1, 'n': 1}
+{'u': 0, 'r': 0, 'e': 0, 't': 0, 'f': 0}
+comparing : Making & Oh
+comparing : Making & dear,
+comparing : Making & what
+comparing : Making & will
+comparing : Making & happen
+item1 : making
+item2 : happen
+{'a': 1, 'g': 1, 'i': 1, 'k': 1, 'm': 1, 'n': 1}
+{'a': 1, 'h': 0, 'e': 0, 'p': 0, 'n': 1}
+comparing : Making & to
+comparing : Making & them
+comparing : Making & when
+comparing : Making & it
+happens.
+comparing : Making & This
+comparing : Making & can
+comparing : Making & happen
+item1 : making
+item2 : happen
+{'a': 1, 'g': 1, 'i': 1, 'k': 1, 'm': 1, 'n': 1}
+{'a': 1, 'h': 0, 'e': 0, 'p': 0, 'n': 1}
+comparing : Making & only
+comparing : Making & in
+comparing : Making & Rome.
+comparing : Making & Read
+comparing : Making & on
+comparing : Making & to
+comparing : Making & find
+comparing : Making & more.
+
+comparing : the & pots
+comparing : the & will
+stop
+comparing : the & in
+comparing : the & the
+comparing : the & future.
+comparing : the & Oh
+comparing : the & dear,
+comparing : the & what
+comparing : the & will
+comparing : the & happen
+comparing : the & to
+comparing : the & them
+comparing : the & when
+comparing : the & it
+happens.
+comparing : the & This
+comparing : the & can
+item1 : the
+item2 : can
+{'h': 1, 'e': 1, 't': 1}
+{'a': 0, 'c': 0, 'n': 0}
+key1 : h
+comparing : the & happen
+comparing : the & only
+comparing : the & in
+comparing : the & Rome.
+comparing : the & Read
+comparing : the & on
+comparing : the & to
+comparing : the & find
+comparing : the & more.
+
+comparing : pots & will
+stop
+comparing : pots & in
+comparing : pots & the
+comparing : pots & future.
+comparing : pots & Oh
+comparing : pots & dear,
+item1 : pots
+item2 : dear
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : p
+comparing : pots & what
+item1 : pots
+item2 : what
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'h': 0, 't': 1, 'w': 0}
+key1 : p
+comparing : pots & will
+item1 : pots
+item2 : will
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'l': 0, 'w': 0}
+comparing : pots & happen
+comparing : pots & to
+comparing : pots & them
+item1 : pots
+item2 : them
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'h': 0, 'm': 0, 'e': 0, 't': 1}
+key1 : p
+comparing : pots & when
+item1 : pots
+item2 : when
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'h': 0, 'e': 0, 'w': 0, 'n': 0}
+key1 : p
+comparing : pots & it
+happens.
+comparing : pots & This
+item1 : pots
+item2 : this
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'h': 0, 's': 1, 't': 1}
+key1 : p
+comparing : pots & can
+comparing : pots & happen
+comparing : pots & only
+item1 : pots
+item2 : only
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'y': 0, 'l': 0, 'o': 1, 'n': 0}
+key1 : p
+comparing : pots & in
+comparing : pots & Rome.
+item1 : pots
+item2 : rome
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : p
+comparing : pots & Read
+item1 : pots
+item2 : read
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : p
+comparing : pots & on
+comparing : pots & to
+comparing : pots & find
+item1 : pots
+item2 : find
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 0}
+key1 : p
+comparing : pots & more.
+
+item1 : pots
+item2 : more
+{'p': 1, 's': 1, 't': 1, 'o': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : p
+comparing : will
+stop & in
+comparing : will
+stop & the
+comparing : will
+stop & future.
+comparing : will
+stop & Oh
+comparing : will
+stop & dear,
+comparing : will
+stop & what
+comparing : will
+stop & will
+comparing : will
+stop & happen
+comparing : will
+stop & to
+comparing : will
+stop & them
+comparing : will
+stop & when
+comparing : will
+stop & it
+happens.
+comparing : will
+stop & This
+comparing : will
+stop & can
+comparing : will
+stop & happen
+comparing : will
+stop & only
+comparing : will
+stop & in
+comparing : will
+stop & Rome.
+comparing : will
+stop & Read
+comparing : will
+stop & on
+comparing : will
+stop & to
+comparing : will
+stop & find
+comparing : will
+stop & more.
+
+comparing : in & the
+comparing : in & future.
+comparing : in & Oh
+item1 : in
+item2 : oh
+{'i': 1, 'n': 1}
+{'h': 0, 'o': 0}
+key1 : i
+comparing : in & dear,
+comparing : in & what
+comparing : in & will
+comparing : in & happen
+comparing : in & to
+item1 : in
+item2 : to
+{'i': 1, 'n': 1}
+{'t': 0, 'o': 0}
+key1 : i
+comparing : in & them
+comparing : in & when
+comparing : in & it
+happens.
+comparing : in & This
+comparing : in & can
+comparing : in & happen
+comparing : in & only
+comparing : in & in
+comparing : in & Rome.
+comparing : in & Read
+comparing : in & on
+item1 : in
+item2 : on
+{'i': 1, 'n': 1}
+{'o': 0, 'n': 1}
+key1 : i
+comparing : in & to
+item1 : in
+item2 : to
+{'i': 1, 'n': 1}
+{'t': 0, 'o': 0}
+key1 : i
+comparing : in & find
+comparing : in & more.
+
+comparing : the & future.
+comparing : the & Oh
+comparing : the & dear,
+comparing : the & what
+comparing : the & will
+comparing : the & happen
+comparing : the & to
+comparing : the & them
+comparing : the & when
+comparing : the & it
+happens.
+comparing : the & This
+comparing : the & can
+item1 : the
+item2 : can
+{'h': 1, 'e': 1, 't': 1}
+{'a': 0, 'c': 0, 'n': 0}
+key1 : h
+comparing : the & happen
+comparing : the & only
+comparing : the & in
+comparing : the & Rome.
+comparing : the & Read
+comparing : the & on
+comparing : the & to
+comparing : the & find
+comparing : the & more.
+
+comparing : future. & Oh
+comparing : future. & dear,
+comparing : future. & what
+comparing : future. & will
+comparing : future. & happen
+item1 : future
+item2 : happen
+{'u': 2, 'r': 1, 'e': 1, 't': 1, 'f': 1}
+{'a': 0, 'h': 0, 'e': 1, 'p': 0, 'n': 0}
+key1 : u
+comparing : future. & to
+comparing : future. & them
+comparing : future. & when
+comparing : future. & it
+happens.
+comparing : future. & This
+comparing : future. & can
+comparing : future. & happen
+item1 : future
+item2 : happen
+{'u': 2, 'r': 1, 'e': 1, 't': 1, 'f': 1}
+{'a': 0, 'h': 0, 'e': 1, 'p': 0, 'n': 0}
+key1 : u
+comparing : future. & only
+comparing : future. & in
+comparing : future. & Rome.
+comparing : future. & Read
+comparing : future. & on
+comparing : future. & to
+comparing : future. & find
+comparing : future. & more.
+
+comparing : Oh & dear,
+comparing : Oh & what
+comparing : Oh & will
+comparing : Oh & happen
+comparing : Oh & to
+item1 : oh
+item2 : to
+{'h': 1, 'o': 1}
+{'t': 0, 'o': 1}
+key1 : h
+comparing : Oh & them
+comparing : Oh & when
+comparing : Oh & it
+happens.
+comparing : Oh & This
+comparing : Oh & can
+comparing : Oh & happen
+comparing : Oh & only
+comparing : Oh & in
+item1 : oh
+item2 : in
+{'h': 1, 'o': 1}
+{'i': 0, 'n': 0}
+key1 : h
+comparing : Oh & Rome.
+comparing : Oh & Read
+comparing : Oh & on
+item1 : oh
+item2 : on
+{'h': 1, 'o': 1}
+{'o': 1, 'n': 0}
+key1 : h
+comparing : Oh & to
+item1 : oh
+item2 : to
+{'h': 1, 'o': 1}
+{'t': 0, 'o': 1}
+key1 : h
+comparing : Oh & find
+comparing : Oh & more.
+
+comparing : dear, & what
+item1 : dear
+item2 : what
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'a': 1, 'h': 0, 't': 0, 'w': 0}
+key1 : a
+key1 : r
+comparing : dear, & will
+item1 : dear
+item2 : will
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'i': 0, 'l': 0, 'w': 0}
+comparing : dear, & happen
+comparing : dear, & to
+comparing : dear, & them
+item1 : dear
+item2 : them
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'h': 0, 'm': 0, 'e': 1, 't': 0}
+key1 : a
+comparing : dear, & when
+item1 : dear
+item2 : when
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'h': 0, 'e': 1, 'w': 0, 'n': 0}
+key1 : a
+comparing : dear, & it
+happens.
+comparing : dear, & This
+item1 : dear
+item2 : this
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'i': 0, 'h': 0, 's': 0, 't': 0}
+key1 : a
+comparing : dear, & can
+comparing : dear, & happen
+comparing : dear, & only
+item1 : dear
+item2 : only
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'y': 0, 'l': 0, 'o': 0, 'n': 0}
+key1 : a
+comparing : dear, & in
+comparing : dear, & Rome.
+item1 : dear
+item2 : rome
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'m': 0, 'r': 1, 'e': 1, 'o': 0}
+key1 : a
+comparing : dear, & Read
+item1 : dear
+item2 : read
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+key1 : a
+key1 : r
+key1 : e
+key1 : d
+comparing : dear, & on
+comparing : dear, & to
+comparing : dear, & find
+item1 : dear
+item2 : find
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'i': 0, 'f': 0, 'd': 1, 'n': 0}
+key1 : a
+comparing : dear, & more.
+
+item1 : dear
+item2 : more
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'m': 0, 'r': 1, 'e': 1, 'o': 0}
+key1 : a
+comparing : what & will
+item1 : what
+item2 : will
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'i': 0, 'l': 0, 'w': 1}
+comparing : what & happen
+comparing : what & to
+comparing : what & them
+item1 : what
+item2 : them
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'h': 1, 'm': 0, 'e': 0, 't': 1}
+key1 : a
+comparing : what & when
+item1 : what
+item2 : when
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'h': 1, 'e': 0, 'w': 1, 'n': 0}
+key1 : a
+comparing : what & it
+happens.
+comparing : what & This
+item1 : what
+item2 : this
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'i': 0, 'h': 1, 's': 0, 't': 1}
+key1 : a
+comparing : what & can
+comparing : what & happen
+comparing : what & only
+item1 : what
+item2 : only
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'y': 0, 'l': 0, 'o': 0, 'n': 0}
+key1 : a
+comparing : what & in
+comparing : what & Rome.
+item1 : what
+item2 : rome
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 0}
+key1 : a
+comparing : what & Read
+item1 : what
+item2 : read
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'a': 1, 'r': 0, 'e': 0, 'd': 0}
+key1 : a
+key1 : h
+comparing : what & on
+comparing : what & to
+comparing : what & find
+item1 : what
+item2 : find
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 0}
+key1 : a
+comparing : what & more.
+
+item1 : what
+item2 : more
+{'a': 1, 'h': 1, 't': 1, 'w': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 0}
+key1 : a
+comparing : will & happen
+comparing : will & to
+comparing : will & them
+item1 : will
+item2 : them
+{'i': 1, 'l': 2, 'w': 1}
+{'h': 0, 'm': 0, 'e': 0, 't': 0}
+comparing : will & when
+item1 : will
+item2 : when
+{'i': 1, 'l': 2, 'w': 1}
+{'h': 0, 'e': 0, 'w': 1, 'n': 0}
+comparing : will & it
+happens.
+comparing : will & This
+item1 : will
+item2 : this
+{'i': 1, 'l': 2, 'w': 1}
+{'i': 1, 'h': 0, 's': 0, 't': 0}
+comparing : will & can
+comparing : will & happen
+comparing : will & only
+item1 : will
+item2 : only
+{'i': 1, 'l': 2, 'w': 1}
+{'y': 0, 'l': 2, 'o': 0, 'n': 0}
+comparing : will & in
+comparing : will & Rome.
+item1 : will
+item2 : rome
+{'i': 1, 'l': 2, 'w': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 0}
+comparing : will & Read
+item1 : will
+item2 : read
+{'i': 1, 'l': 2, 'w': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+comparing : will & on
+comparing : will & to
+comparing : will & find
+item1 : will
+item2 : find
+{'i': 1, 'l': 2, 'w': 1}
+{'i': 1, 'f': 0, 'd': 0, 'n': 0}
+comparing : will & more.
+
+item1 : will
+item2 : more
+{'i': 1, 'l': 2, 'w': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 0}
+comparing : happen & to
+comparing : happen & them
+comparing : happen & when
+comparing : happen & it
+happens.
+comparing : happen & This
+comparing : happen & can
+comparing : happen & happen
+comparing : happen & only
+comparing : happen & in
+comparing : happen & Rome.
+comparing : happen & Read
+comparing : happen & on
+comparing : happen & to
+comparing : happen & find
+comparing : happen & more.
+
+comparing : to & them
+comparing : to & when
+comparing : to & it
+happens.
+comparing : to & This
+comparing : to & can
+comparing : to & happen
+comparing : to & only
+comparing : to & in
+item1 : to
+item2 : in
+{'t': 1, 'o': 1}
+{'i': 0, 'n': 0}
+key1 : t
+comparing : to & Rome.
+comparing : to & Read
+comparing : to & on
+item1 : to
+item2 : on
+{'t': 1, 'o': 1}
+{'o': 1, 'n': 0}
+key1 : t
+comparing : to & to
+comparing : to & find
+comparing : to & more.
+
+comparing : them & when
+item1 : them
+item2 : when
+{'h': 1, 'm': 1, 'e': 1, 't': 1}
+{'h': 1, 'e': 1, 'w': 0, 'n': 0}
+key1 : h
+key1 : m
+comparing : them & it
+happens.
+comparing : them & This
+item1 : them
+item2 : this
+{'h': 1, 'm': 1, 'e': 1, 't': 1}
+{'i': 0, 'h': 1, 's': 0, 't': 1}
+key1 : h
+key1 : m
+comparing : them & can
+comparing : them & happen
+comparing : them & only
+item1 : them
+item2 : only
+{'h': 1, 'm': 1, 'e': 1, 't': 1}
+{'y': 0, 'l': 0, 'o': 0, 'n': 0}
+key1 : h
+comparing : them & in
+comparing : them & Rome.
+item1 : them
+item2 : rome
+{'h': 1, 'm': 1, 'e': 1, 't': 1}
+{'m': 1, 'r': 0, 'e': 1, 'o': 0}
+key1 : h
+comparing : them & Read
+item1 : them
+item2 : read
+{'h': 1, 'm': 1, 'e': 1, 't': 1}
+{'a': 0, 'r': 0, 'e': 1, 'd': 0}
+key1 : h
+comparing : them & on
+comparing : them & to
+comparing : them & find
+item1 : them
+item2 : find
+{'h': 1, 'm': 1, 'e': 1, 't': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 0}
+key1 : h
+comparing : them & more.
+
+item1 : them
+item2 : more
+{'h': 1, 'm': 1, 'e': 1, 't': 1}
+{'m': 1, 'r': 0, 'e': 1, 'o': 0}
+key1 : h
+comparing : when & it
+happens.
+comparing : when & This
+item1 : when
+item2 : this
+{'h': 1, 'e': 1, 'w': 1, 'n': 1}
+{'i': 0, 'h': 1, 's': 0, 't': 0}
+key1 : h
+key1 : e
+comparing : when & can
+comparing : when & happen
+comparing : when & only
+item1 : when
+item2 : only
+{'h': 1, 'e': 1, 'w': 1, 'n': 1}
+{'y': 0, 'l': 0, 'o': 0, 'n': 1}
+key1 : h
+comparing : when & in
+comparing : when & Rome.
+item1 : when
+item2 : rome
+{'h': 1, 'e': 1, 'w': 1, 'n': 1}
+{'m': 0, 'r': 0, 'e': 1, 'o': 0}
+key1 : h
+comparing : when & Read
+item1 : when
+item2 : read
+{'h': 1, 'e': 1, 'w': 1, 'n': 1}
+{'a': 0, 'r': 0, 'e': 1, 'd': 0}
+key1 : h
+comparing : when & on
+comparing : when & to
+comparing : when & find
+item1 : when
+item2 : find
+{'h': 1, 'e': 1, 'w': 1, 'n': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 1}
+key1 : h
+comparing : when & more.
+
+item1 : when
+item2 : more
+{'h': 1, 'e': 1, 'w': 1, 'n': 1}
+{'m': 0, 'r': 0, 'e': 1, 'o': 0}
+key1 : h
+comparing : it
+happens. & This
+comparing : it
+happens. & can
+comparing : it
+happens. & happen
+comparing : it
+happens. & only
+comparing : it
+happens. & in
+comparing : it
+happens. & Rome.
+comparing : it
+happens. & Read
+comparing : it
+happens. & on
+comparing : it
+happens. & to
+comparing : it
+happens. & find
+comparing : it
+happens. & more.
+
+comparing : This & can
+comparing : This & happen
+comparing : This & only
+item1 : this
+item2 : only
+{'i': 1, 'h': 1, 's': 1, 't': 1}
+{'y': 0, 'l': 0, 'o': 0, 'n': 0}
+key1 : i
+comparing : This & in
+comparing : This & Rome.
+item1 : this
+item2 : rome
+{'i': 1, 'h': 1, 's': 1, 't': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 0}
+key1 : i
+comparing : This & Read
+item1 : this
+item2 : read
+{'i': 1, 'h': 1, 's': 1, 't': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : i
+comparing : This & on
+comparing : This & to
+comparing : This & find
+item1 : this
+item2 : find
+{'i': 1, 'h': 1, 's': 1, 't': 1}
+{'i': 1, 'f': 0, 'd': 0, 'n': 0}
+key1 : i
+key1 : h
+comparing : This & more.
+
+item1 : this
+item2 : more
+{'i': 1, 'h': 1, 's': 1, 't': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 0}
+key1 : i
+comparing : can & happen
+comparing : can & only
+comparing : can & in
+comparing : can & Rome.
+comparing : can & Read
+comparing : can & on
+comparing : can & to
+comparing : can & find
+comparing : can & more.
+
+comparing : happen & only
+comparing : happen & in
+comparing : happen & Rome.
+comparing : happen & Read
+comparing : happen & on
+comparing : happen & to
+comparing : happen & find
+comparing : happen & more.
+
+comparing : only & in
+comparing : only & Rome.
+item1 : only
+item2 : rome
+{'y': 1, 'l': 1, 'o': 1, 'n': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : y
+comparing : only & Read
+item1 : only
+item2 : read
+{'y': 1, 'l': 1, 'o': 1, 'n': 1}
+{'a': 0, 'r': 0, 'e': 0, 'd': 0}
+key1 : y
+comparing : only & on
+comparing : only & to
+comparing : only & find
+item1 : only
+item2 : find
+{'y': 1, 'l': 1, 'o': 1, 'n': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 1}
+key1 : y
+comparing : only & more.
+
+item1 : only
+item2 : more
+{'y': 1, 'l': 1, 'o': 1, 'n': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 1}
+key1 : y
+comparing : in & Rome.
+comparing : in & Read
+comparing : in & on
+item1 : in
+item2 : on
+{'i': 1, 'n': 1}
+{'o': 0, 'n': 1}
+key1 : i
+comparing : in & to
+item1 : in
+item2 : to
+{'i': 1, 'n': 1}
+{'t': 0, 'o': 0}
+key1 : i
+comparing : in & find
+comparing : in & more.
+
+comparing : Rome. & Read
+item1 : rome
+item2 : read
+{'m': 1, 'r': 1, 'e': 1, 'o': 1}
+{'a': 0, 'r': 1, 'e': 1, 'd': 0}
+key1 : m
+comparing : Rome. & on
+comparing : Rome. & to
+comparing : Rome. & find
+item1 : rome
+item2 : find
+{'m': 1, 'r': 1, 'e': 1, 'o': 1}
+{'i': 0, 'f': 0, 'd': 0, 'n': 0}
+key1 : m
+comparing : Rome. & more.
+
+item1 : rome
+item2 : more
+{'m': 1, 'r': 1, 'e': 1, 'o': 1}
+{'m': 1, 'r': 1, 'e': 1, 'o': 1}
+key1 : m
+key1 : r
+key1 : e
+key1 : o
+comparing : Read & on
+comparing : Read & to
+comparing : Read & find
+item1 : read
+item2 : find
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'i': 0, 'f': 0, 'd': 1, 'n': 0}
+key1 : a
+comparing : Read & more.
+
+item1 : read
+item2 : more
+{'a': 1, 'r': 1, 'e': 1, 'd': 1}
+{'m': 0, 'r': 1, 'e': 1, 'o': 0}
+key1 : a
+comparing : on & to
+item1 : on
+item2 : to
+{'o': 1, 'n': 1}
+{'t': 0, 'o': 1}
+key1 : o
+key1 : n
+comparing : on & find
+comparing : on & more.
+
+comparing : to & find
+comparing : to & more.
+
+comparing : find & more.
+
+item1 : find
+item2 : more
+{'i': 1, 'f': 1, 'd': 1, 'n': 1}
+{'m': 0, 'r': 0, 'e': 0, 'o': 0}
+key1 : i
+[('Rome.', 'more.\n'), ('dear,', 'Read'), ('post,', 'pots.'), ('post,', 'pots')]

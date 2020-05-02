@@ -1,0 +1,30 @@
+adding new user : {'Phone': '9999999991', 'Name': 'Test User', 'Email': 'abcd.com'}
+user_details : {'Phone': '9999999991', 'Name': 'Test User', 'Email': 'abcd.com'}
+('Test User', '9999999991', 'abcd.com')
+user signed up successfully
+adding new user : {'Phone': '9999999992', 'Name': 'Test User2', 'Email': 'abcd_2.com'}
+user_details : {'Phone': '9999999992', 'Name': 'Test User2', 'Email': 'abcd_2.com'}
+('Test User2', '9999999992', 'abcd_2.com')
+user signed up successfully
+adding new user : {'Phone': '9999999993', 'Name': 'Test User_3', 'Email': 'abcd_3.com'}
+user_details : {'Phone': '9999999993', 'Name': 'Test User_3', 'Email': 'abcd_3.com'}
+('Test User_3', '9999999993', 'abcd_3.com')
+user signed up successfully
+total number of users : 3
+list of all the users is : 
+phone : 9999999991 and user details : {'Phone': '9999999991', 'Name': 'Test User', 'Email': 'abcd.com'}
+phone : 9999999993 and user details : {'Phone': '9999999993', 'Name': 'Test User_3', 'Email': 'abcd_3.com'}
+phone : 9999999992 and user details : {'Phone': '9999999992', 'Name': 'Test User2', 'Email': 'abcd_2.com'}
+adding new group : {'Name': 'Group1', 'Users': ['9999999991', '9999999992']}
+group_details : {'Name': 'Group1', 'Users': ['9999999991', '9999999992']}
+('Group1', ['9999999991', '9999999992'])
+total number of groups : 1
+list of all the groups is : 
+group name : Group1 and group details : {'Name': 'Group1', 'Users': ['9999999991', '9999999992']}
+preconditions satisfied
+total number of groups : 1
+list of all the groups is : 
+group name : Group1 and group details : {'Name': 'Group1', 'Users': ['9999999991', '9999999992', '9999999993']}
+total number of groups : 1
+list of all the groups is : 
+group name : Group1 and group details : {'Name': 'Group1', 'Users': ['9999999992', '9999999993']}
