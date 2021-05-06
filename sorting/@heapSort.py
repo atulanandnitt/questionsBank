@@ -36,12 +36,12 @@ def heapSort(arr):
     n = len(arr)
  
     # Build a maxheap.
-    for i in range(n//2 -1, 0, -1):
+    for i in range(n//2 -1, -1, -1):
         heapify(arr, n, i)
-        print("after heapify arr :" ,arr)
+        print("after heapify arr :", arr)
  
     # One by one extract elements
-    for i in range(n-1, -1, -1):
+    for i in range(n-1, 0, -1):
         arr[i], arr[0] = arr[0], arr[i] # swap
         heapify(arr, i, 0)
         print("****arr :",arr)
@@ -49,7 +49,7 @@ def heapSort(arr):
      
  
 # Driver code to test above
-arr = [ 5,3,1,2,4]
+arr = [ 5,300,1,2,4]
 heapSort(arr)
 n = len(arr)
 print ("Sorted array is")
