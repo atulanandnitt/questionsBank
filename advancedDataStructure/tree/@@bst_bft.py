@@ -37,6 +37,58 @@ class Tree:
                     break
     
     
+    
+    def bfs_better(self):
+        if self.root is None:
+            return
+        q = [self.root]
+        temp = q.pop()
+        while temp:
+            print(temp.data, ", ", end="")
+            if temp.left is not None:
+                q.append(temp.left)
+            if temp.right is not None:
+                q.append(temp.right)
+            
+            if len(q) > 0:
+                temp = q.pop(0)
+            else:
+                break
+
+    def leftView_better(self):
+        q1 = [self.root]
+        q2 = list()
+        while 1:
+            # import ipdb; ipdb.set_trace()
+            if len(q2) == 0:
+                if len(q1) >0:
+                    temp = q1.pop(0)
+                print(temp.data, ", ", end="")
+                while temp:
+                    if temp.left: q2.append(temp.left)
+                    if temp.right: q2.append(temp.right)
+                    if len(q1) > 0:
+                        temp = q1.pop()
+                    elif len(q1) == 0: 
+                        # print(q2)
+                        break
+
+            if len(q1) == 0:
+                if len(q2) >0:
+                    temp = q2.pop(0)
+                print(temp.data, ", ", end="")
+                while temp:
+                    if temp.left: q1.append(temp.left)
+                    if temp.right: q1.append(temp.right)
+                    if len(q2) >0:
+                        temp = q2.pop(0)
+                    elif len(q2) == 0: 
+                        # print(q1)
+                        break
+            
+            if len(q1) == 0 and len(q2) ==0:
+                break
+
         
     def bfs(self):
         self.root.level=0
@@ -255,7 +307,51 @@ class Tree:
         elif temp.data > val:
             self.findnode(temp.left,val)
             
+
+    def is_cousin(self, x: float, y: float) -> bool:
+        dq = deque()
+        dq.append(self.root)
+        temp = {}
         
+        while dq:
+            row = set()
+            
+            for _ in range(len(dq)):
+                node = dq.pop()
+                print("working on current node.data: ",node.data)
+                if node.left:
+                    if node.left.data == x:
+                        temp[x] = node
+                        print("temp : ", temp.get(x).data)
+                    if node.left.data == y:
+                        temp[y] = node
+                        print("temp : ", temp.get(y).data)
+                    # print("temp : ", temp, type(temp))
+                    
+                    dq.appendleft(node.left)
+                if node.right:
+                    if node.right.data == x:
+                        temp[x] = node
+                        print("temp : ", temp.get(x).data)
+                    if node.right.data == y:
+                        temp[y] = node
+                        print("temp : ", temp.get(y).data)
+                    dq.appendleft(node.right)
+                    # print("temp : ", temp.get(x), temp.get(y))
+                    # print("temp : ", temp[x], temp[y])
+            
+                row.add(node.data)
+            
+            if x in row and y in row:
+                print("in the same subtree")
+
+                if temp[x] == temp[y]:
+                    return False
+                
+                return True
+            
+        return False
+
 
        
     def inorder(self,temp):
@@ -485,3 +581,11 @@ print("bst.trimBst(tree,minVal,maxVal)")
 print("finding val=5")
 val=3
 print(bst.findnode(bst.root,val))
+
+print("is_cousin: **********")
+# print(t1.is_cousin(6.5, 4.5))
+# print(t1.is_cousin(3, 4))
+print(t1.is_cousin(2, 6))
+print(t1.is_cousin(2, 5.5))
+# print(t1.is_cousin(1, 4.5))
+# print(t1.is_cousin(0, 4.5))

@@ -1,12 +1,20 @@
-#https://practice.geeksforgeeks.org/problems/c-visible-numbers/0/?ref=self
 
-def visibleNos(str1):
-    dict1={key:str1.count(key) for key in set(str1)}
-    print(dict1)
-    len1=len(str1)
-    print(len1 //3)
-    for key1,val1 in dict1.items():
-        if val1 > (len1 //3):
-            print("key",key1)
-            
-visibleNos("122323232")
+class Sort:
+    def __init__(self, arr):
+        self.arr = arr
+
+    def heapify(self, n, i):
+        index_for_largest = i
+        l = 2 *i +1
+        r = 2 *i +2
+
+        if l <= n and self.arr[index_for_largest] < self.arr[l]:
+            self.arr[index_for_largest] = l
+        if r <= n and self.arr[index_for_largest] < self.arr[r]:
+            self.arr[index_for_largest] = r
+        
+        if index_for_largest != i:
+            self.heapify(n-1, index_for_largest)
+        
+    def heap_sort(self):
+        
